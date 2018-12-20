@@ -13,7 +13,7 @@ html_content = '''
 gmail = GMail("secsosoo@gmail.com","Sectheug1ygir1^^")
 msg = Message("Đơn xin nghỉ việc", to="harley.ngx@gmail.com", html=html_content)
 
-if now.hour > 7:
-    gmail.send(msg)
-else:
-    print("It has not 7AM yet")
+while True:
+    if now.hour > 7:
+        gmail.send(msg)
+        break 
