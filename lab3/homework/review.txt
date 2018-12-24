@@ -1,0 +1,19 @@
+- Why should we use function at all?
+    Because it is reuseable and has already moluded 
+- How to define/declare a function?
+    def<function name>(function arguments):
+- How to call/use a function?
+    function name()
+- What is return, why and how do we use it?
+    When we create variable in a function, it is called local variable,
+    it only exist in the function.
+    So, we have to use return to use the local variable outside the function
+- Do we have to use return in every function?
+    No
+- What are function arguments/parameters, why and how we use it?
+    A name used inside a function to refer to the value passed as an argument
+    We use it because it is the values that control how the function does its job 
+    If we want to use arguments, we have to define it inside the function and input it when we call the function
+- How to use function from a different file other than our currently working file?
+    When using function from a different file other than our currently working file,
+    we have to import the file that contain the function.
